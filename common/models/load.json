@@ -1,0 +1,79 @@
+{
+  "name": "load",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "LoadID": {
+      "type": "number",
+      "required": true,
+      "id": true
+    },
+    "LoadTypeID": {
+      "type": "string"
+    },
+    "TargetPickupDate": {
+      "type": "string"
+    },
+    "PickupCity": {
+      "type": "string",
+      "required": true
+    },
+    "PickupState": {
+      "type": "string",
+      "required": true
+    },
+    "PickupZip": {
+      "type": "number"
+    },
+    "DeliveryCity": {
+      "type": "string",
+      "required": true
+    },
+    "DeliveryState": {
+      "type": "string",
+      "required": true
+    },
+    "DeliveryZip": {
+      "type": "number"
+    },
+    "LoadWeight": {
+      "type": "number",
+      "required": true
+    },
+    "LoadSize": {
+      "type": "string"
+    },
+    "TargetRateUSD": {
+      "type": "number"
+    },
+    "LoadReadyDateTime": {
+      "type": "string"
+    },
+    "BookLoadByDateTime": {
+      "type": "string"
+    },
+    "NotificationType": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "string"
+    },
+    "PostType": {
+      "type": "string"
+    },
+    "LoadState": {
+      "type": "string"
+    },
+    "ShipperID": {
+      "type": "number",
+      "required": true
+    },
+    "TruckerID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ifreight": {
+    "name": "ifreight",
+    "connector": "postgresql",
+    "host": "instafreightdb.cwzc0einshnn.us-west-2.rds.amazonaws.com",
+    "port": 5432,
+    "database": "instafreightdb",
+    "user": "connectme",
+    "password" : "connectme777!"
+  }
+}

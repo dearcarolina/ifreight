@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "ifreight"
+  },
+  "AccessToken": {
+    "dataSource": "ifreight",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ifreight",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ifreight",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "ifreight",
+    "public": false
+  },
+  "shipper": {
+    "dataSource": "ifreight",
+    "public": true
+  },
+  "trucker": {
+    "dataSource": "ifreight",
+    "public": true
+  },
+  "load": {
+    "dataSource": "ifreight",
+    "public": true
+  }
+}

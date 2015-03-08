@@ -1,0 +1,50 @@
+{
+  "name": "shipper",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "Zip": {
+      "type": "number"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "number"
+    },
+    "ShipperID": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "Password": {
+      "type": "string",
+      "required": true
+    },
+    "CreatedDate": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

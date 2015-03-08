@@ -1,0 +1,68 @@
+{
+  "name": "trucker",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "TruckerID": {
+      "type": "string",
+      "id": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "number",
+      "required": true
+    },
+    "Age": {
+      "type": "number"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "Zip": {
+      "type": "number"
+    },
+    "MCNumber": {
+      "type": "string"
+    },
+    "DOTLicenseNumber": {
+      "type": "string"
+    },
+    "InsuredAndBonded": {
+      "type": "boolean"
+    },
+    "InsuredAmount": {
+      "type": "number"
+    },
+    "EquipmentTypeID": {
+      "type": "number"
+    },
+    "Rating": {
+      "type": "number"
+    },
+    "Genset": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
